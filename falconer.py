@@ -23,7 +23,7 @@ class FibResource(object):
 app = falcon.API()
 
 # Resources are represented by long-lived class instances
-things = FibResource()
+fibs = FibResource()
 
 # things will handle all requests to the '/things' URL path
-app.add_route('/fib/{number}', things)
+app.add_route('/fib/{number}', fibs)
