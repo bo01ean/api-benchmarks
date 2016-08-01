@@ -7,8 +7,8 @@ Idea borrowed from: https://medium.com/@tschundeee/express-vs-flask-vs-go-acc087
 #### SETUP
 
 ## Benchmark tool (wrk)
-```git clone https://github.com/wg/wrk
-
+```
+git clone https://github.com/wg/wrk
 cd wrk; make; cp wrk; /usr/local/bin/; cd ..```
 
 ## Python
