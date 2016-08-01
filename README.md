@@ -2,7 +2,7 @@
 
 
 Idea borrowed from: https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122#.61v429cr3
-
+Assumes OS X with Homebrew 
 
 #### SETUP
 
@@ -32,7 +32,7 @@ npm install -g pm2```
 
 
 
-### BENCHS
+### RUN BENCHMARKS
 
 ```
 # Test Go
