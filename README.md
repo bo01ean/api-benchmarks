@@ -26,7 +26,14 @@ go build serve.go```
 npm install -g pm2```
 
 
+## Haskell
 
+Install [Haskell stack](https://docs.haskellstack.org/en/stable/README/) in your `$PATH`.
+
+```
+cd haskell-servant
+stack build
+```
 
 
 
@@ -57,4 +64,10 @@ wrk -c 64 -d 30s http://localhost:3000/10
 pm2 start express.js -i 16
 # Bench it (in other tab)
 wrk -c 64 -d 30s http://localhost:3000/10
+```
+
+```
+cd haskell-servant && stack exec haskell-servant-exe
+# Bench it (in other tab)
+wrk -c 64 -d 30s http://localhost:8080/10
 ```
